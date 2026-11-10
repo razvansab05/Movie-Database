@@ -123,8 +123,4 @@ ORDER BY movies DESC;
 - The sample data has one rating per movie, so averages are not meaningful yet.
 - Add indexes on `ratings(movie_id)` and `movie_casting(person_id)` for larger datasets.
 - Add a unique constraint on `ratings(movie_id, user_id)` so each user rates a movie once.
-- Seed users have no password hash. Never store plain-text passwords in `password_hash`.
 
-## License
-
-Add a license of your choice (for example MIT) before publishing.
